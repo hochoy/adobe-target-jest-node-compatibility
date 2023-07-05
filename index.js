@@ -13,7 +13,3 @@ const createClient = () => {
 };
 
 module.exports = createClient;
-
-const newClient = createClient();
-
-console.log(newClient);
