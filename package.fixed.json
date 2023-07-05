@@ -1,0 +1,28 @@
+{
+  "name": "adobe-target-node-compatibility",
+  "version": "1.0.0",
+  "description": "Testing node version compatibilities for adobe target sdk",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hochoy/adobe-target-node-compatibility.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hochoy/adobe-target-node-compatibility/issues"
+  },
+  "homepage": "https://github.com/hochoy/adobe-target-node-compatibility#readme",
+  "dependencies": {
+    "@adobe/target-nodejs-sdk": "^2.4.3"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
+  },
+  "overrides": {
+    "fast-text-encoding": "0.0.0-empty"
+  }
+}
